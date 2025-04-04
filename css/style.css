@@ -1,0 +1,71 @@
+@import "./normalize.css";
+@import "./global.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #0a0c1c;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background: #1b1937;
+  box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.2);
+}
+.card__content {
+  padding: 72px;
+}
+.card__title {
+  max-width: 403px;
+  font-size: 36px;
+  font-style: normal;
+  line-height: 44px;
+  margin-bottom: 25px;
+
+  span {
+    color: #ab5cdb;
+  }
+}
+.card__desc {
+  max-width: 374px;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  opacity: 0.75;
+  margin-bottom: 72px;
+}
+.card__figures {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+.card__figure {
+}
+.card__figure-rating {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card__figure-name {
+  font-family: "Lexend Deca";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 208.333% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.card__image {
+  height: 100%;
+}
